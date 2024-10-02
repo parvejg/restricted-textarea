@@ -28,3 +28,12 @@ p {
 body {
   font-family: sans-serif;
 }
+@media (max-width: 700px) {
+  .main-wrapper{
+    width: 100%;
+    padding: 3px;
+  }
+  textarea{
+   margin: 5px;
+  }
+}
